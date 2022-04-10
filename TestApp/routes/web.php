@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/users', function() {
-    return 'welcomenZI to users PAGE';
+    return ['php', 'laravel', 'html'];
 });
